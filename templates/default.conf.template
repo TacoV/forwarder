@@ -1,0 +1,6 @@
+server {
+    server_name ${REDIRECT_FROM};
+    listen 80 ;
+    listen [::]:80 ;
+    return 301 https://${REDIRECT_TO}$request_uri;
+}
