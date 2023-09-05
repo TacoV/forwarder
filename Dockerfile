@@ -1,2 +1,2 @@
-FROM nginx:latest-alpine
+FROM nginx:alpine-slim
 COPY default.conf.template /etc/nginx/templates
