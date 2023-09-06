@@ -1,2 +1,2 @@
 FROM nginx:alpine-slim
-COPY default.conf.template /etc/nginx/templates
+COPY default.conf.template /etc/nginx/templates/
