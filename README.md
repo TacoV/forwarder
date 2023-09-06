@@ -1,5 +1,5 @@
-# nginx-forwarder
-Small Docker image purely for forwarding with 301 HTTP code
+# forwarder
+Small Docker image purely for forwarding with [HTTP 301](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301) code.
 
 Listens to port 80 and responds with a redirect to https://${REDIRECT_TO}, preserving the query.
 
